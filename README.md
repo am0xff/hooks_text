@@ -16,7 +16,7 @@ function Example() {
 }
 ```
 
-###useContext
+### useContext
 ```
 const value = useContext(MyContext);
 ```
@@ -105,7 +105,7 @@ function ThemedButton() {
 }
 ```
 
-###useMemo
+### useMemo
 ```
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 ```
@@ -125,7 +125,7 @@ function Parent({ a, b }) {
 }
 ```
 
-###Suspense
+### Suspense
 ```
 const ProfilePage = React.lazy(() => import('./ProfilePage'));// Ленивая загрузка
 
